@@ -15,19 +15,18 @@ const Socials = () => {
         <div
           className={`${showIcons}  anima  flex flex-col space-y-5 icons `}>
           <Link href="https//:github.com/Debbie-alt">
-            <Image src="/linkedin1.png" width={35} height={20} role="button" />
+            <Image src="/linkedin1.png" width={35} height={20} role="button" alt="linkedin icon" />
           </Link>
           <Link href=" mailto:funmmy565@gmail.com">
-            <Image src="/gmailorig.png" width={35} height={20} role="button" />
+            <Image src="/gmailorig.png" width={35} height={20} role="button" alt="gmail-icon" />
           </Link>
           <Link href="https//:twitter.com/Funmi565">
-            <Image src="/x.png" width={35} height={20} role="button" />
+            <Image src="/x.png" width={35} height={20} role="button" alt="twitter icon" />
           </Link>
           <Link href="https//:github.com/Debbie-alt">
-            <Image src="/purplegit.png" width={30} height={20} role="button" />
+            <Image src="/purplegit.png" width={30} height={20} role="button" alt="git icon" />
           </Link>
 
-          {/* <Image src="/linkedin1.png" width={40} height={20} role="button" /> */}
         </div>
 
         <button

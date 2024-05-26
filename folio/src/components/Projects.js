@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Projects = () => {
 
-  var settings = {
+  let settings = {
     dots: true,
     infinite: true,
     speed: 500,
@@ -55,29 +55,7 @@ const Projects = () => {
          <a href="https://movatti.vercel.app/" className="text-xs md:text-md">View Live Link</a>
    </div>
       </div>
-      {/* <div className="container space-y-6">
-        <Image src="/modamartlight.jpg"
-        width={600}
-        height={600}
-        className="mx-auto"
-
-         alt="modamart project" border="0"/>
-      </div>
-      <div className="container">
-        <Image src="/modamartlight.jpg"
-        width={600}
-        height={600}
-        className="mx-auto"
-         alt="modamart project" border="0"/>
-      </div>
-      <div className="container">
-        <Image src="/modamartdark.jpg"
-        width={600}
-        height={600}
-        className="mx-auto"
-
-         alt="modamart project" border="0"/>
-      </div> */}
+      
     </Slider>
 
     </section>

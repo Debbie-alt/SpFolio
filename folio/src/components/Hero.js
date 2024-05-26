@@ -4,6 +4,7 @@ import { CiMenuKebab } from "react-icons/ci";
 import Lottie from 'lottie-react';
 import animationData from '../../public/Animation.json'; 
 import { MdCancel } from "react-icons/md";
+import Link from 'next/link';
 
 
 const Hero = () => {
@@ -21,11 +22,11 @@ showLinks == 'hidden' ?  setShowLinks('flex') :setShowLinks('hidden')
         <section className={` navlinks flex-col md:flex md:flex-row
          py-5 md:py-0 items-center justify-evenly  w-screen md:w-[40vw] font-sans ${showLinks}`}>
         <MdCancel className='md:hidden  text-xl absolute top-[8%] right-[3%]'  onClick={()=> setShowLinks('hidden')}/>
-          <a className='cursor-pointer'>Home</a>
-          <a href='#about' className='cursor-pointer'>About</a>
-          <a href='#projects' className='cursor-pointer'>Skills</a>
-          <a href='#projects' className='cursor-pointer'>Projects</a>
-          <a href='/contactme' className='border-[1px] border-pink-800 px-3 py-1 rounded-full hover:opacity-70' role='button'>Hire Me</a>
+          <Link  className='cursor-pointer'>Home</Link>
+          <Link href='#about' className='cursor-pointer'>About</Link>
+          <Link href='#projects' className='cursor-pointer'>Skills</Link>
+          <Link href='#projects' className='cursor-pointer'>Projects</Link>
+          <Link href='#contact' className='border-[1px] border-pink-800 px-3 py-1 rounded-full hover:opacity-70' role='button'>Hire Me</Link>
         </section>
         <CiMenuKebab className='text-2xl md:hidden cursor-pointer' onClick={toggleLinks} role="button"/>
       </nav>
@@ -45,7 +46,6 @@ showLinks == 'hidden' ?  setShowLinks('flex') :setShowLinks('hidden')
             animationData={animationData}
             className="w-[40vw] h-[60vh] hidden md:flex "
             loop={true}
-            // onComplete={handleAnimationLooped}
           />
         </div>
       </section>
