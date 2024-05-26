@@ -35,7 +35,8 @@ showLinks == 'hidden' ?  setShowLinks('flex') :setShowLinks('hidden')
           <h1 className='text-6xl font-bold'>I am <span className="bg-clip-text bg-gradient-to-r from-purple-600 to-pink-700 text-transparent animate-pulse">Funmi,</span></h1>
           <div>
             <h1 className='text-sm md:text-md'>Frontend Developer and Software Engineer</h1>
-            <p className=' text-xs xs:text-sm md:text-[16px] mt-2'>lorewm ipsum dolor amet sit connestryyejnng v and dsot <br/> hjuv to lorem dolor isist mdt cond eftv for dolor ti ghr tbr</p>
+            <p className=' text-xs xs:text-sm md:text-[16px] mt-2 leading-6'>  I specialize in crafting user-friendly interfaces and building robust software solutions. With a passion for clean code and innovative design, I strive to create seamless digital experiences that delight users. 
+</p>
           </div>
           <a  href="#about" role='button' className=' w-[40px] border-[1px] animate-bounce rounded-full p-2 text-xl flex items-center bg-gradient-to-b from-black to-pink-700 mt-5'><FaAngleDown className='' /></a>
         </div>
