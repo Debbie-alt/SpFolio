@@ -30,7 +30,7 @@ useEffect(()=>{
                  <div className='py-14 w-screen md:w-[45vw]  text-black space-y-5' data-aos="fade-left" data-aos-delay="500">
                   <h1 className='text-xl text-black text-middle font-serif'>Frontend Developer </h1>
                   <p className='leading-wide'>
-                  I'm an innovative front-end web and mobile developer motivated to learn, grow, and excel in the Web Industry, with experience and passion for responsive website design and a firm believer in the mobile-first approach. I'm a driven student leveraging studies in Web Development seeks real-world experience as a Front-End Developer. I Offer strong interpersonal and task prioritization skills.
+                  I am an innovative front-end web and mobile developer motivated to learn, grow, and excel in the Web Industry, with experience and passion for responsive website design and a firm believer in the mobile-first approach. I am a driven student leveraging studies in Web Development seeks real-world experience as a Front-End Developer. I Offer strong interpersonal and task prioritization skills.
                     </p>
                
                     <a href="/FUNMI'S CV.pdf" download>
