@@ -41,7 +41,7 @@ const Contact = () => {
     <section className=' p-4 md:p-20 bg-black space-y-7' id="contact">
       <h1 className='font-serif text-3xl text-center text-transparent bg-clip-text bg-gradient-to-tr from-indigo-300 to-pink-600'  data-aos="fade-right" data-aos-delay="0"
 >Contact Me</h1>
-      <p className='text-sm text-center leading-6 w-[60vw] mx-auto text-gray-300'>I am open to collaborations, learning, and job opportunities. Kindly contact me if you have any. Or is there anything you'd like to discuss with me? No worries, I'm friendly and approachable</p>
+      <p className='text-sm text-center leading-6 w-[60vw] mx-auto text-gray-300'>I am open to collaborations, learning, and job opportunities. Kindly contact me if you have any. Or is there anything you would like to discuss with me? No worries, I am friendly and approachable</p>
 
       <div className='flex justify-center text-black font-serif' data-aos="zoom-in" data-aos-delay="300">
         <form className="w-[90vw] md:w-2/3 lg:w-1/2 xl:w-1/3 bg-white p-8 rounded-lg shadow-lg shadow-pink-400" onSubmit={displayMessage}>
