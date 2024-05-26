@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+ overflow-x: hidden;
+}
+
+
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}  */
+
+body {
+  /* background-color: black; */
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(41, 3, 16));
+  color: white;
+}
+.icons {
+  position: fixed;
+  right: 5%;
+  top: 30%;
+  animation-name: slidein;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+  0% {
+right: 120%;  
+}
+80%{
+ 
+   right: 0%;
+}
+  100% {
+    right: 5%; /* Adjust to the desired position */
+  }
+}
+.socials{
+  z-index: 2 !important;
+}
+@media (max-width:768px) {
+  .navlinks{
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(12, 11, 11);
+    gap: 8px;
+    margin-left: -10%;
+    top: -1%;
+    border-bottom: 1px solid white;
+    border-bottom: pink;
+
+  }
+  
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
