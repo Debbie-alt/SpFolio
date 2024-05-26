@@ -25,7 +25,7 @@ showLinks == 'hidden' ?  setShowLinks('flex') :setShowLinks('hidden')
           <a href='#about' className='cursor-pointer'>About</a>
           <a href='#projects' className='cursor-pointer'>Skills</a>
           <a href='#projects' className='cursor-pointer'>Projects</a>
-          <a href='#contact' className='border-[1px] border-pink-800 px-3 py-1 rounded-full hover:opacity-70' role='button'>Hire Me</a>
+          <a href='/contactme' className='border-[1px] border-pink-800 px-3 py-1 rounded-full hover:opacity-70' role='button'>Hire Me</a>
         </section>
         <CiMenuKebab className='text-2xl md:hidden cursor-pointer' onClick={toggleLinks} role="button"/>
       </nav>

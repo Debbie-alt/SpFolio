@@ -14,18 +14,18 @@ const Socials = () => {
       <div className=" socials fixed right-[3%]  top-[30%]  space-y-5 ">
         <div
           className={`${showIcons}  anima  flex flex-col space-y-5 icons `}>
-          <a href="https//:github.com/Debbie-alt">
+          <Link href="https//:github.com/Debbie-alt">
             <Image src="/linkedin1.png" width={35} height={20} role="button" />
-          </a>
-          <a href=" mailto:funmmy565@gmail.com">
+          </Link>
+          <Link href=" mailto:funmmy565@gmail.com">
             <Image src="/gmailorig.png" width={35} height={20} role="button" />
-          </a>
-          <a href="https//:twitter.com/Funmi565">
+          </Link>
+          <Link href="https//:twitter.com/Funmi565">
             <Image src="/x.png" width={35} height={20} role="button" />
-          </a>
-          <a href="https//:github.com/Debbie-alt">
+          </Link>
+          <Link href="https//:github.com/Debbie-alt">
             <Image src="/purplegit.png" width={30} height={20} role="button" />
-          </a>
+          </Link>
 
           {/* <Image src="/linkedin1.png" width={40} height={20} role="button" /> */}
         </div>
