@@ -13,7 +13,7 @@ const Socials = () => {
     <>
       <div className=" socials fixed right-[3%]  top-[30%]  space-y-5 ">
         <div
-          className={`${showIcons}  anima  flex flex-col space-y-5 icons `}>
+          className={`${showIcons}    flex flex-col space-y-5 icons `}>
           <a href="https://github.com/Debbie-alt">
             <Image src="/linkedin1.png" width={35} height={20} role="button" alt="linkedin icon" />
           </a>

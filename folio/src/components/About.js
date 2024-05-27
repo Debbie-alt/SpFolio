@@ -11,25 +11,25 @@ useEffect(()=>{
 },[])
 
   return (
-      <section className='bg-white w-screen p-12' id='about'>
+      <section className='bg-white w-screen px-4 py-8 md:p-12' id='about'>
             <h1 className='text-center text-3xl text-black font-serif italic ' 
             data-aos="fade-right" data-aos-delay="500">About Me</h1>
 
             <div className=' flex flex-col md:flex-row  space-x-[12%]'>
-              <div className=' mx-auto md:mx-0 p-3 border-t-4 border-b-4 w-[320px] border-t-pink-700 border-b-black rounded-[50%]' data-aos="zoom-in" data-aos-delay="500">
+              <div className=' mx-auto md:mx-0 p-3 border-t-4 border-b-4 w-[220px] md:w-[320px] border-t-pink-700 border-b-black rounded-[50%]' data-aos="zoom-in" data-aos-delay="500">
                  <Image
                  src='/myphoto.jpg'
                  width={300}
                  height={200}
                  alt='Photo of myself'
-                 className='  rounded-[50%]'
+                 className='w-[240px]  md:w-[300px]  rounded-[50%]'
                  />
                 </div>
 
 
                  <div className='py-14 w-screen md:w-[45vw]  text-black space-y-5' data-aos="fade-left" data-aos-delay="500">
                   <h1 className='text-xl text-black text-middle font-serif'>Frontend Developer </h1>
-                  <p className='leading-wide'>
+                  <p className=' text-sm md:text-md w-[65vw] md:w-[47vw] leading-wide'>
                   I am an innovative front-end web and mobile developer motivated to learn, grow, and excel in the Web Industry, with experience and passion for responsive website design and a firm believer in the mobile-first approach. I am a driven student leveraging studies in Web Development seeks real-world experience as a Front-End Developer. I Offer strong interpersonal and task prioritization skills.
                     </p>
                
