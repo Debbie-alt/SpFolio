@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Inter } from "next/font/google";
 import Head from "next/head";
 import Hero from "@/components/Hero";
@@ -8,13 +7,13 @@ import Projects from "@/components/Projects";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
     <main
-      className={`flex min-h-screen flex-col   ${inter.className}`}>
+      className={`flex min-h-screen flex-col   `}>
 
         <Head>
           <title>Funmi Folio</title>

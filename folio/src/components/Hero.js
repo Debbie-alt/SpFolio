@@ -18,11 +18,11 @@ showLinks == 'hidden' ?  setShowLinks('flex') :setShowLinks('hidden')
   return (
     <header className='p-8 h-screen font-serif'>
       <nav className='flex justify-between'>
-        <p className='text-2xl font-sans'>Fayemi Funmilayo</p>
+        <p className='text-2xl font-serif'>Fayemi Funmilayo</p>
         <section className={` navlinks flex-col md:flex md:flex-row
          py-5 md:py-0 items-center justify-evenly  w-screen md:w-[40vw] font-sans ${showLinks}`}>
         <MdCancel className='md:hidden  text-xl absolute top-[8%] right-[3%]'  onClick={()=> setShowLinks('hidden')}/>
-          <Link  className='cursor-pointer'>Home</Link>
+        <Link href="#" className='cursor-pointer'>Home</Link>
           <Link href='#about' className='cursor-pointer'>About</Link>
           <Link href='#projects' className='cursor-pointer'>Skills</Link>
           <Link href='#projects' className='cursor-pointer'>Projects</Link>
